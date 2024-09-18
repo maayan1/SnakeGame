@@ -6,7 +6,7 @@ import javax.swing.JFrame;
         private static final long serialVersionUID = 1L;
 
         GameFrame() {
-            GamePanel panel = new GamePanel();
+            GamePanel panel  = new GamePanel();
             this.add(panel);
             this.setTitle("SnakeNoBounds");
             this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);

@@ -124,7 +124,7 @@ public class GamePanel extends JPanel implements ActionListener {
 
             graphics.setColor(Color.white);
             graphics.setFont(new Font("Sans serif", Font.ROMAN_BASELINE, 25));
-            FontMetrics metrics = getFontMetrics(graphics.getFont());
+            FontMetrics metrics =  getFontMetrics(graphics.getFont());
             graphics.drawString("Score: " + appleEaten, (ScreenWidth - metrics.stringWidth("Score: " + appleEaten)) / 2, graphics.getFont().getSize());
 
         } else {
